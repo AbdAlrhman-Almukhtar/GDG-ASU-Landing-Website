@@ -1,13 +1,13 @@
 import React from "react";
 import StatCard from "./StatCard";
 
-import PersonIcon from "../assets/images/Person.png";
-import CalenderIcon from "../assets/images/Calender.png";
-import CircleLogoIcon from "../assets/images/CircleLogo.png";
+import PersonIcon from "../assets/images/person.png";
+import CalenderIcon from "../assets/images/calender.png";
+import CircleLogoIcon from "../assets/images/circle_logo.png";
 
-import LeftShape from "../assets/images/Shapes2.png";
-import RightShape from "../assets/images/Shapes1.png";
-import DotsShape from "../assets/images/Shapes3.png";
+import LeftShape from "../assets/images/shapes_left.png";
+import RightShape from "../assets/images/shapes_right.png";
+import DotsShape from "../assets/images/shape_dots.png";
 
 interface Stat {
   icon: string;
@@ -50,6 +50,7 @@ const OurGrowth: React.FC = () => {
         alt="Dots decoration"
         className="absolute top-10 right-10 w-32"
       />
+
       <img
         src={RightShape}
         alt="Right decoration"
