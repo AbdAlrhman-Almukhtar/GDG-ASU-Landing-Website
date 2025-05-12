@@ -9,46 +9,64 @@ import FacebookIcon from "../assets/icons/facebook_icon.svg";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-50 py-10">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10">
-        <div>
-          <img src={GDGIcon} alt="GDG Logo" className="w-100 h-15" />
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-10">
+        <div className="flex flex-col space-y-2 -ml-16">
+          <img src={GDGIcon} alt="GDG Logo" className="w-92 h-14" />
         </div>
-        <div className="flex flex-col items-start space-y-2">
-          <h4 className="text-gray-700 font-semibold">Social</h4>
-          <p className="text-gray-500">Upcoming Events </p>
-          <p className="text-gray-500">Meet the Team</p>
-          <p className="text-gray-500">Our Growth</p>
-          <p className="text-gray-500">Our Vision </p>
+
+        <div className="flex flex-col space-y-2">
+          <h4 className="text-lg text-gray-700">Quick Links</h4>
+          <a href="#" className="text-gray-500 hover:text-gray-700">
+            › Upcoming Events
+          </a>
+          <a href="#" className="text-gray-500 hover:text-gray-700">
+            › Meet the Team
+          </a>
+          <a href="#" className="text-gray-500 hover:text-gray-700">
+            › Our Growth
+          </a>
+          <a href="#" className="text-gray-500 hover:text-gray-700">
+            › Our Vision
+          </a>
         </div>
-        <div className="flex flex-col items-start space-y-4">
-          <h4 className="text-gray-700 font-semibold">Social</h4>
-          <p className="text-gray-500">#gdgasu</p>
-          <div className="flex items-center gap-6 py-6">
-            <img
-              src={FacebookIcon}
-              alt="Facebook"
-              className="w-5 h-5 cursor-pointer"
-            />
-            <img
-              src={InstagramIcon}
-              alt="Instagram"
-              className="w-5 h-5 cursor-pointer"
-            />
-            <img
-              src={GithubIcon}
-              alt="Github"
-              className="w-5 h-5 cursor-pointer"
-            />
-            <img
-              src={DiscordIcon}
-              alt="Discord"
-              className="w-5 h-5 cursor-pointer"
-            />
+
+        <div className="flex flex-col space-y-2">
+          <h4 className="text-lg text-gray-700">Social</h4>
+          <span className="text-gray-500">#gdgasu</span>
+          <div className="flex items-center space-x-6 pt-2 pr-16">
+            <a href="https://web.facebook.com/GDSCASU">
+              <img
+                src={FacebookIcon}
+                alt="Facebook"
+                className="w-5 h-5 cursor-pointer"
+              />
+            </a>
+            <a href="https://www.instagram.com/gdgasu/">
+              <img
+                src={InstagramIcon}
+                alt="Instagram"
+                className="w-5 h-5 cursor-pointer"
+              />
+            </a>
+            <a href="https://github.com/GDG-ASU">
+              <img
+                src={GithubIcon}
+                alt="GitHub"
+                className="w-5 h-5 cursor-pointer"
+              />
+            </a>
+            <a href="https://discord.gg/QNNdghqw">
+              <img
+                src={DiscordIcon}
+                alt="Discord"
+                className="w-5 h-5 cursor-pointer"
+              />
+            </a>
           </div>
         </div>
       </div>
 
-      <div className="mt-8 px-28 text-xs text-gray-500">
+      <div className="mt-8 pl-17 text-left text-xs text-gray-500">
         © GDG ASU Team 2025
       </div>
     </footer>
