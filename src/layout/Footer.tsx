@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-8 pl-17 text-left text-xs text-gray-500">
+      <div className="ml-18 pl-17 text-left text-xs text-gray-500">
         © GDG ASU Team 2025
       </div>
     </footer>
