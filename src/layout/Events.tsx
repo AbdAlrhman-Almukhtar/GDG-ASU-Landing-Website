@@ -6,6 +6,9 @@ import BridgingDesignWorkshopPoster from "../assets/images/bridging_design_works
 import GameHackingWorkshopPoster from "../assets/images/game_hacking_workshop.png";
 import GitAndGithubStudyjamPoster from "../assets/images/git_and_github_studyjam.png";
 import Jpc8 from "../assets/images/jpc8.png";
+import DotsShape from "../assets/images/shapes_dots_vertical.png";
+import GreenStarShape from "../assets/images/green_star_shape.png";
+import BlueStarShape from "../assets/images/blue_star_shape.png";
 
 const eventList = [
   {
@@ -68,34 +71,57 @@ export const Events = () => {
   }, []);
 
   return (
-    <div className="relative bg-gray-50 overflow-hidden w-screen h-150">
-      <div className="w-screen h-full overflow-hidden">
-        <div
-          ref={containerRef}
-          className="flex h-full"
-          style={{ width: `${eventList.length * 100}vw` }}
-        >
-          {eventList.map((event, i) => (
-            <div
-              key={i}
-              className="w-screen h-full flex justify-center items-center"
-            >
-              <EventCard {...event} />
-            </div>
-          ))}
+    <div>
+      <div className="relative w-full bg-gray-50 py-16 flex items-center justify-center overflow-hidden">
+        <img
+          src={DotsShape}
+          alt="dots"
+          className="absolute -left-12 top-1/2 -translate-y-1/2 w-auto h-[300px]"
+        />
+        <h2 className="text-2xl md:text-4xl font-semibold text-gray-700 text-center px-4 z-10">
+          Events, Workshops & Study Jams by{" "}
+          <span className="text-blue-600 font-bold">GDG ASU</span>
+        </h2>
+
+        <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex gap-6">
+          <img src={GreenStarShape} alt="green star" className="w-16 md:w-20" />
+          <img
+            src={BlueStarShape}
+            alt="blue star"
+            className="w-8 md:w-10 self-end"
+          />
         </div>
       </div>
 
-      <div className="absolute bottom-6 w-full flex justify-center gap-3">
-        {eventList.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setCurrentIndex(i)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              currentIndex === i ? "bg-blue-600 scale-125" : "bg-gray-400"
-            }`}
-          />
-        ))}
+      <div className="relative bg-gray-50 overflow-hidden w-screen h-150">
+        <div className="w-screen h-full overflow-hidden">
+          <div
+            ref={containerRef}
+            className="flex h-full"
+            style={{ width: `${eventList.length * 100}vw` }}
+          >
+            {eventList.map((event, i) => (
+              <div
+                key={i}
+                className="w-screen h-full flex justify-center items-center"
+              >
+                <EventCard {...event} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="absolute bottom-6 w-full flex justify-center gap-3">
+          {eventList.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setCurrentIndex(i)}
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                currentIndex === i ? "bg-blue-600 scale-125" : "bg-gray-400"
+              }`}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
