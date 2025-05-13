@@ -9,7 +9,7 @@ import DotsShape from "../assets/images/shapes_dots_vertical.png";
 import GreenStarShape from "../assets/images/green_star_shape.png";
 import SquareShapes from "../assets/images/square_shapes.png"
 
-const eventList = [
+export const eventList = [
   {
     title: "Bridging Design & {Code}",
     imageSrc: BridgingDesignWorkshopPoster,
@@ -135,3 +135,4 @@ export const Events = () => {
     </div>
   );
 };
+export default Events;
