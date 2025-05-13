@@ -53,7 +53,7 @@ export const Events = () => {
     if (containerRef.current) {
       gsap.to(containerRef.current, {
         x: `-${currentIndex * 100}vw`,
-        duration: 1.2,
+        duration: 1.5,
         ease: "power2.inOut",
       });
     }
