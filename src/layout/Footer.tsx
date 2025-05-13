@@ -8,7 +8,7 @@ import FacebookIcon from "../assets/icons/facebook_icon.svg";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-50 py-10">
+    <footer className="bg-gray-50 pt-18">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-10">
         <div className="flex flex-col space-y-2 -ml-16">
           <img src={GDGIcon} alt="GDG Logo" className="w-92 h-14" />
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-8 pl-17 text-left text-xs text-gray-500">
+      <div className="mt-6 pl-17 text-left text-xs text-gray-500">
         © GDG ASU Team 2025
       </div>
     </footer>

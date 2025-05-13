@@ -1,5 +1,5 @@
 import React from "react";
-import StatCard from "./StatCard";
+import StatCard from "../components/StatCard";
 
 import PersonIcon from "../assets/images/person.png";
 import CalenderIcon from "../assets/images/calender.png";
