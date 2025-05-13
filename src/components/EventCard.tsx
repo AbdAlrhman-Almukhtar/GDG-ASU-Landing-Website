@@ -11,7 +11,7 @@ const EventCard = ({
   onReadMore = () => {},
 }) => {
   return (
-    <div className="max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-lg p-4 flex flex-col md:flex-row gap-8">
+    <div className="max-w-5xl mx-auto bg-gray-50 rounded-2xl  p-4 flex flex-col md:flex-row gap-8">
       <div className="flex-1">
         {imageSrc && (
           <img

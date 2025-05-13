@@ -1,6 +1,5 @@
 import { useRef, useState, useLayoutEffect, useEffect } from "react";
 import gsap from "gsap";
-
 import EventCard from "../components/EventCard";
 import BridgingDesignWorkshopPoster from "../assets/images/bridging_design_workshop.png";
 import GameHackingWorkshopPoster from "../assets/images/game_hacking_workshop.png";
@@ -8,7 +7,7 @@ import GitAndGithubStudyjamPoster from "../assets/images/git_and_github_studyjam
 import Jpc8 from "../assets/images/jpc8.png";
 import DotsShape from "../assets/images/shapes_dots_vertical.png";
 import GreenStarShape from "../assets/images/green_star_shape.png";
-import BlueStarShape from "../assets/images/blue_star_shape.png";
+import SquareShapes from "../assets/images/square_shapes.png"
 
 const eventList = [
   {
@@ -72,26 +71,31 @@ export const Events = () => {
 
   return (
     <div>
-      <div className="relative w-full bg-gray-50 py-16 flex items-center justify-center overflow-hidden">
-        <img
-          src={DotsShape}
-          alt="dots"
-          className="absolute -left-12 top-1/2 -translate-y-1/2 w-auto h-[300px]"
-        />
-        <h2 className="text-2xl md:text-4xl font-semibold text-gray-700 text-center px-4 z-10">
-          Events, Workshops & Study Jams by{" "}
-          <span className="text-blue-600 font-bold">GDG ASU</span>
-        </h2>
+<div className="relative w-full bg-gray-50 pt-18 pb-1 flex items-center justify-center overflow-visible">
+  <img
+    src={DotsShape}
+    alt="Dotted grid"
+    className="absolute -left-10 top-1/2 -translate-y-1/2 h-72 w-auto select-none pointer-events-none"
+  />
 
-        <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex gap-6">
-          <img src={GreenStarShape} alt="green star" className="w-16 md:w-20" />
-          <img
-            src={BlueStarShape}
-            alt="blue star"
-            className="w-8 md:w-10 self-end"
-          />
-        </div>
-      </div>
+  <h2 className="px-4 text-center font-semibold text-gray-700 text-2xl lg:text-4xl z-10">
+    Events, Workshops &amp; Study Jams by{" "}
+    <span className="text-[#4285F4] font-bold">G</span>
+    <span className="text-[#EA4335] font-bold">D</span>
+    <span className="text-[#FBBC04] font-bold">G</span>
+    <span className="text-[#0F9D58] font-bold">&nbsp;A</span>
+    <span className="text-[#4285F4] font-bold">S</span>
+    <span className="text-[#EA4335] font-bold">U</span>
+  </h2>
+
+  <div className="absolute right-0 lg:right-24 top-1/2 -translate-y-1/2 flex flex-col items-center pointer-events-none">
+    <img
+      src={GreenStarShape}
+      alt="Green star"
+      className="w-22 md:w-26 lg:w-28"
+    />
+  </div>
+</div>
 
       <div className="relative bg-gray-50 overflow-hidden w-screen h-150">
         <div className="w-screen h-full overflow-hidden">
@@ -121,6 +125,11 @@ export const Events = () => {
               }`}
             />
           ))}
+          <img
+    src={SquareShapes}
+    alt=""
+    className="absolute bottom-0 right-12 w-24 mt-24 pointer-events-none select-none"
+  />
         </div>
       </div>
     </div>
