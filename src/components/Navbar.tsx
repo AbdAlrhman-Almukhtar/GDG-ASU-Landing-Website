@@ -7,7 +7,6 @@ const Navbar: React.FC = () => {
     "About GDG",
     "Growth",
     "Events",
-    "Workshops",
     "Leadership",
     "FAQ",
   ];

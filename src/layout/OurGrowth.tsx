@@ -1,5 +1,5 @@
 import React from "react";
-import StatCard from "./StatCard";
+import StatCard from "../components/StatCard";
 
 import PersonIcon from "../assets/images/person.png";
 import CalenderIcon from "../assets/images/calender.png";
@@ -58,7 +58,7 @@ const OurGrowth: React.FC = () => {
       />
 
       <div className="relative z-10 max-w-6xl mx-auto text-center">
-        <h2 className="text-5xl font-bold text-gray-800">Our Growth</h2>
+        <h2 className="text-4xl font-bold text-gray-800">Our Growth</h2>
         <p className="mt-3 text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
         Empowering Student Developers Through Community and Learning
         </p>
