@@ -120,9 +120,9 @@ const FAQsection: React.FC = () => {
   ];
 
   return (
-    <section className="relative bg-gray-50 py-16 md:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="relative bg-gray-50 py-16 md:py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="relative z-10 max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between text-center md:text-left">
-        <div className="md:w-2/3 md:pr-8 mb-8 md:mb-0">
+        <div className="md:w-2/3 md:pr-8 mb-2 md:mb-0">
           <h2 className="text-3xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-gray-700">
             Frequently Asked Questions
           </h2>
@@ -140,7 +140,7 @@ const FAQsection: React.FC = () => {
         </div>
       </div>
 
-      <div className="relative z-10 max-w-5xl mx-auto mt-12 md:mt-16 lg:mt-20">
+      <div className="relative z-10 max-w-5xl mx-auto mt-12 md:mt-16 lg:mt-10">
         <FAQ items={faqData} />
       </div>
     </section>
