@@ -5,6 +5,8 @@ import DiscordIcon from "../assets/icons/discord_icon.svg";
 import InstagramIcon from "../assets/icons/instagram_icon.svg";
 import GithubIcon from "../assets/icons/github_icon.svg";
 import FacebookIcon from "../assets/icons/facebook_icon.svg";
+import LinkedinIcon from "../assets/icons/linkedin_icon.svg";
+
 
 const Footer: React.FC = () => {
   return (
@@ -58,6 +60,13 @@ const Footer: React.FC = () => {
             <a href="https://discord.gg/QNNdghqw">
               <img
                 src={DiscordIcon}
+                alt="Discord"
+                className="w-5 h-5 cursor-pointer"
+              />
+            </a>
+             <a href="https://www.linkedin.com/company/gdgasu">
+              <img
+                src={LinkedinIcon}
                 alt="Discord"
                 className="w-5 h-5 cursor-pointer"
               />
