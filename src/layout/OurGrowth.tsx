@@ -64,8 +64,13 @@ const OurGrowth: React.FC = () => {
         </p>
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ml-10">
-          {stats.map((stat, index) => (
-            <StatCard key={index} {...stat} />
+           {stats.map((stat, index) => (
+              <div
+              key={index}
+              className="transform transition-transform duration-300 hover:scale-125"
+            >
+            <StatCard  {...stat} />
+            </div>
           ))}
         </div>
       </div>
