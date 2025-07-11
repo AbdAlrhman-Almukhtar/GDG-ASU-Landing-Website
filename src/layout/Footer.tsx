@@ -3,7 +3,7 @@ import React from "react";
 import GDGIcon from "../assets/images/logos/gdg_logo_desktop.png";
 import DiscordIcon from "../assets/icons/discord_icon.svg";
 import InstagramIcon from "../assets/icons/instagram_icon.svg";
-import GithubIcon from "../assets/images/logos/github.svg";
+import GithubIcon from "../assets/icons/github_icon.svg";
 import FacebookIcon from "../assets/icons/facebook_icon.svg";
 import LinkedinIcon from "../assets/icons/linkedin_icon.svg";
 
