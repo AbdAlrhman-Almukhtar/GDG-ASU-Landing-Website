@@ -1,13 +1,13 @@
 import { useRef, useState, useLayoutEffect, useEffect } from "react";
 import gsap from "gsap";
 import EventCard from "../components/EventCard";
-import BridgingDesignWorkshopPoster from "../assets/images/bridging_design_workshop.png";
-import GameHackingWorkshopPoster from "../assets/images/game_hacking_workshop.png";
-import GitAndGithubStudyjamPoster from "../assets/images/git_and_github_studyjam.png";
-import Jpc8 from "../assets/images/jpc8.png";
-import DotsShape from "../assets/images/shapes_dots_vertical.png";
-import GreenStarShape from "../assets/images/green_star_shape.png";
-import SquareShapes from "../assets/images/square_shapes.png"
+import BridgingDesignWorkshopPoster from "../assets/images/posters/bridging_design_workshop.png";
+import GameHackingWorkshopPoster from "../assets/images/posters/game_hacking_workshop.png";
+import GitAndGithubStudyjamPoster from "../assets/images/posters/git_and_github_studyjam.png";
+import Jpc8 from "../assets/images/posters/jpc8.png";
+import DotsShape from "../assets/images/designes/shapes_dots_vertical.png";
+import GreenStarShape from "../assets/images/designes/green_star_shape.png";
+import SquareShapes from "../assets/images/designes/square_shapes.png"
 
 export const eventList = [
   {

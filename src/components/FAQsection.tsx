@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
 
-import chatBubble from "../assets/images/chat_bubble.png";
+import chatBubble from "../assets/images/designes/chat_bubble.png";
 
 interface FAQItem {
   id: string;
