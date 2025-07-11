@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import GdgLogoDesktop from "../assets/images/gdg_logo_desktop.png";
+import GdgLogoDesktop from "../assets/images/logos/gdg_logo_desktop.png";
 import NavItem from "./NavItem";
 
 const Navbar: React.FC = () => {

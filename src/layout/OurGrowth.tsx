@@ -1,13 +1,13 @@
 import React from "react";
 import StatCard from "../components/StatCard";
 
-import PersonIcon from "../assets/images/person.png";
-import CalenderIcon from "../assets/images/calender.png";
-import CircleLogoIcon from "../assets/images/circle_logo.png";
+import PersonIcon from "../assets/images/logos/person.png";
+import CalenderIcon from "../assets/images/logos/calender.png";
+import CircleLogoIcon from "../assets/images/logos/circle_logo.png";
 
-import LeftShape from "../assets/images/shapes_left.png";
-import RightShape from "../assets/images/shapes_right.png";
-import DotsShape from "../assets/images/shape_dots.png";
+import LeftShape from "../assets/images/designes/shapes_left.png";
+import RightShape from "../assets/images/designes/shapes_right.png";
+import DotsShape from "../assets/images/designes/shape_dots.png";
 
 interface Stat {
   icon: string;

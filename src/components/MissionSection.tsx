@@ -1,11 +1,11 @@
-import FirstImage from "../assets/images/1.png";
-import SecondImage from "../assets/images/2.png";
-import ThirdImage from "../assets/images/3.png";
-import FourthImage from "../assets/images/4.png";
-import FifthImage from "../assets/images/5.png";
-import SixthImage from "../assets/images/6.png";
-import SeventhImage from "../assets/images/7.png";
-import EighthImage from "../assets/images/8.png";
+import FirstImage from "../assets/images/designes/1.png";
+import SecondImage from "../assets/images/designes/2.png";
+import ThirdImage from "../assets/images/designes/3.png";
+import FourthImage from "../assets/images/designes/4.png";
+import FifthImage from "../assets/images/designes/5.png";
+import SixthImage from "../assets/images/designes/6.png";
+import SeventhImage from "../assets/images/designes/7.png";
+import EighthImage from "../assets/images/designes/8.png";
 
 const dataSetone = [
   {
