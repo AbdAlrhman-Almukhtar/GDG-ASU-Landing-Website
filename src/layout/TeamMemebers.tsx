@@ -149,7 +149,7 @@ const TeamMembers: React.FC = () => {
 
   return (
     <div className="bg-gray-50 py-16 px-4 overflow-hidden w-screen">
-      <h2 className="text-center font-semibold text-gray-700 text-2xl lg:text-4xl mb-12">
+      <h2 className="text-center font-semibold text-black-700 text-2xl lg:text-4xl mb-12">
         Team Members of <span className="text-[#4285F4] font-bold">G</span>
         <span className="text-[#EA4335] font-bold">D</span>
         <span className="text-[#FBBC04] font-bold">G</span>
